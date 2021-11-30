@@ -1,0 +1,31 @@
+GitHub
+
+1. How to clone the files from Github to local git in PC?
+=> git clone https://github.com/rajkumar1554/FirstRepository.git
+
+2. How to see the content inside of any file in git local ?
+=> cat test.txt
+
+3. How to check any un-tracked / newly added / modified files in git local ?
+=> git status
+
+4. How to move local changes of files to Github repository?
+First add the updatec file to staging area
+=> git add test.txt
+Then check it is added or not into staging area by using status
+=> git status
+
+Then lastly we need to commit our local changes to GitHub remotely
+=> git commit -m "TestCommit"
+
+Then we need to push our changes to Github Repository of master branch.
+=> git push origin master/main
+
+
+5. How to get updated files from GitHub to our local repository?
+=> git pull
+
+6. How to see list of files in the repository?
+=> ls
+
+
